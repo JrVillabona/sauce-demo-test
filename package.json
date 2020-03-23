@@ -1,0 +1,36 @@
+{
+  "name": "sauce-demo-test",
+  "version": "1.0.0",
+  "description": "E2E Automation Sauce",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:edge": "cypress run --browser edge",
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JrVillabona/sauce-demo-test.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Julian R Villabona A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JrVillabona/sauce-demo-test/issues"
+  },
+  "homepage": "https://github.com/JrVillabona/sauce-demo-test#readme",
+  "devDependencies": {
+    "cypress": "^4.2.0",
+    "cypress-cucumber-preprocessor": "^2.0.1",
+    "cypress-xpath": "^1.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

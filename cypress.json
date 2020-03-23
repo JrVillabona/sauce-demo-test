@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://www.saucedemo.com/",
+  "video": false,
+  "watchForFileChanges": false,
+  "defaultCommandTimeout": 8000,
+  "execTimeout": 60000,
+  "taskTimeout": 60000,
+  "pageLoadTimeout": 30000,
+  "requestTimeout": 5000,
+  "responseTimeout": 30000,
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "testFiles": "**/*.feature"
+}
