@@ -41,7 +41,8 @@ Or if you want to perform with the Cypress console:
 npm run cypress:open
 ```
 
-Then select whether you want to run a particular feature or if you prefer to run all the features. Select the browser in which you want to run the tests, remember that Cypress supports Chrome, Edge, Firefox and Electron. After that, click on **Run all specs**. Note: Excluding Electron, any browser you want to run Cypress tests in needs to be installed on your local system.
+Then select whether you want to run a particular feature or if you prefer to run all the features. Select the browser in which you want to run the tests, remember that Cypress supports Chrome, Edge, Firefox and Electron. After that, click on **Run all specs**.
+Note: Excluding Electron, any browser you want to run Cypress tests in needs to be installed on your local system.
 
 ## Generals
 
