@@ -56,26 +56,26 @@ In the case of Gherkin, Background was used in some tests, and in others the use
 
 ## User stories with their respective .feature
 
-1. As an Performance Glitch User
-   I want to complete the info checkout
+1. As an Performance Glitch User,
+   I want to complete the info checkout,
    In order to purchase items correctly
 
 - **Checkout.feature**
 
-2. As an User
-   I want to login in Sauce Demo
+2. As an User,
+   I want to login in Sauce Demo,
    In order to buy items
 
 - **Login.feature**
 
-3. As an User
-   I want to logout from Sauce Demo
+3. As an User,
+   I want to logout from Sauce Demo,
    In order to close the session
 
 - **Logout.feature**
 
-4. As an Performance Glitch User
-   I want to add items to cart
+4. As an Performance Glitch User,
+   I want to add items to cart,
    In order to purchase items
 
 - **Purchase.feature**
